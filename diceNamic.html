@@ -1,0 +1,34 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+
+	<title>Roll Em!</title>
+	<meta name="description" content="diceNamic">
+	<meta name="Lucas Hyatt" content="diceNamic">
+
+	<script src="diceNamic.js"></script>
+	<link rel="stylesheet" href="css/diceNamic.css">
+</head>
+
+<body>
+	<h2>Roll Number</h2>
+	<img id="die1" src="dice/die1.gif" alt="Die1">
+	<img id="die2" src="dice/die2.gif" alt="Die2">
+	<br><br>
+
+	<form>
+		<label for="fname">Enter target number:</label>
+		<input type="text" id="num" name="num"><br><br>
+
+		<button type="button" onclick="changeDice();" >Roll 'em!</button>
+	</form>
+	<hr>
+	
+	<div style="display: none" id="hit_num">
+		<p>You hit your number in x roll.</p>
+	</div>
+
+</body>
+</html>
