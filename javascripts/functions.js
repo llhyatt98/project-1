@@ -40,3 +40,18 @@ sumEvens = (arr) => {
 
 // var val3 = sumEvens([1, 2, 3, 4, 1]);
 // console.log(val3);
+
+
+
+// Returns the position of a specific character in the alphabet.
+function alphaPosition(ch){
+	var pos = ch.toLowerCase().charCodeAt();
+	return (pos-96);
+}
+
+// var val4 = alphaPosition('h');
+// console.log(val4);
+
+
+
+
